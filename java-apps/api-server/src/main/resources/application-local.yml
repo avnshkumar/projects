@@ -1,0 +1,23 @@
+server:
+  port: 8081
+service:
+  connections:
+    mongodb:
+      mongo-uri: "mongodb+srv://api-server:5G5zWaNenn9ggfu0@cluster92132.sdqvi0t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster92132"
+      database: "product-database"
+    postgres:
+      pgUrl: "jdbc:postgresql://dpg-d017upqli9vc739t7vd0-a.virginia-postgres.render.com/sqldb_hmz8"
+      username: "admin"
+      password: "g83uQB1O60ciFhksOfHtohb5kr84fvth"
+  cors:
+    allowed-origins:
+      - "http://localhost:3100"
+    allowed-methods:
+      - "GET"
+      - "POST"
+      - "PUT"
+      - "DELETE"
+      - "OPTIONS"
+    allowed-headers:
+      - "*"
+    allow-credentials: true

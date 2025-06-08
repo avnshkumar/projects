@@ -1,0 +1,40 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: "local"
+  application:
+    name: "api-server"
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/testdb"
+    username: "admin"
+    password: "g83uQB1O60ciFhksOfHtohb5kr84fvth"
+    driver-class-name: "org.postgresql.Driver"
+    hikari:
+      jdbc-url: "jdbc:postgresql://localhost:5432/test"
+
+service:
+  connections:
+    mongodb:
+      mongo-uri: "mongodb+srv://api-server:5G5zWaNenn9ggfu0@cluster92132.sdqvi0t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster92132"
+      database: "product-database"
+    postgres:
+      url: "jdbc:postgresql://dpg-d017upqli9vc739t7vd0-a.virginia-postgres.render.com/sqldb_hmz8"
+      username: "admin"
+      password: "g83uQB1O60ciFhksOfHtohb5kr84fvth"
+      driver-class-name: "org.postgresql.Driver"
+    redis:
+      host: "redis-18173.c12.us-east-1-4.ec2.redns.redis-cloud.com"
+      port: 18173
+  cors:
+    allowed-origins:
+      - "http://localhost:3100"
+    allowed-methods:
+      - "GET"
+      - "POST"
+      - "PUT"
+      - "DELETE"
+      - "OPTIONS"
+    allowed-headers:
+      - "*"
+    allow-credentials: true
