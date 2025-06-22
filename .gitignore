@@ -24,4 +24,8 @@ replay_pid*
 
 # intellij files
 .idea/
+!.idea/codeStyles
+!.idea/runConfigurations
+!.idea/inspectionProfiles
+!.idea/misc.xml
 .java/idea*

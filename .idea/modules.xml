@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-server.iml" filepath="$PROJECT_DIR$/.idea/modules/api-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parking-lot.iml" filepath="$PROJECT_DIR$/.idea/modules/parking-lot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parking-lot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/parking-lot.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projects.iml" filepath="$PROJECT_DIR$/.idea/projects.iml" />
     </modules>
   </component>
