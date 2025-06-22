@@ -5,9 +5,10 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.32/17d46b3e205515e1e8efd3ee4d57ce8018914163/lombok-1.18.32.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.5.0/571cee41914166d639c56eac7d80fb35e8201325/spring-boot-configuration-processor-3.5.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="api-server.main" />
+        <module name="parking-lot.main" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,11 +17,11 @@
       <module name="api-common" options="-parameters" />
       <module name="api-common.main" options="-parameters" />
       <module name="api-common.test" options="-parameters" />
-      <module name="api-server" options="-parameters -Xlint:unchecked" />
-      <module name="api-server.aot" options="-parameters -Xlint:unchecked" />
-      <module name="api-server.aotTest" options="-parameters -Xlint:unchecked" />
-      <module name="api-server.main" options="-parameters -Xlint:unchecked" />
-      <module name="api-server.test" options="-parameters -Xlint:unchecked" />
+      <module name="api-server" options="-parameters" />
+      <module name="api-server.aot" options="-parameters" />
+      <module name="api-server.aotTest" options="-parameters" />
+      <module name="api-server.main" options="-parameters" />
+      <module name="api-server.test" options="-parameters" />
       <module name="parking-lot" options="-parameters" />
       <module name="parking-lot.main" options="-parameters" />
       <module name="parking-lot.test" options="-parameters" />
