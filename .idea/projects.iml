@@ -15,6 +15,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/modules" />
       <excludeFolder url="file://$MODULE_DIR$/java-apps/api-common/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/python-apps/handling_task_priority/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
