@@ -5,7 +5,7 @@ export interface Config {
 }
 
 const defaultConfig: Config = {
-    BACKEND_URL: 'http://localhost:8081',
+    BACKEND_URL: 'http://localhost:8080',
     DEBUG: false,
 };
 
@@ -16,7 +16,7 @@ const config: Record<string, Config> = {
     },
     dev: {
         ...defaultConfig,
-        BACKEND_URL: 'http://localhost:8081',
+        BACKEND_URL: 'http://localhost:8080',
     },
     staging: {
         ...defaultConfig,

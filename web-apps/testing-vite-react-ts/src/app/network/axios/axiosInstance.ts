@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {getConfigForEnvironment} from "../../../config.ts";
+import {getConfigForEnvironment} from "@/config.ts";
 
 const mode = import.meta.env.MODE;
 const config = getConfigForEnvironment(mode);
