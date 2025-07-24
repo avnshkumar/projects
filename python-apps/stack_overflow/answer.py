@@ -23,5 +23,5 @@ class Answer(Votable, Commentable):
         if user_id in list(map(lambda vote: vote.user_id, self.votes)):
             raise ValueError("User already voted")
         self.votes.append(Vote(user_id, value))
-        if(len())
+        # if(len())
 
