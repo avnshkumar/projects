@@ -1,6 +1,6 @@
 import unittest
-from .cache import Cache
-from .cache_policies import LRUPolicy, PriorityPolicy
+from cache import Cache
+from cache_policies import LRUPolicy, PriorityPolicy
 
 class TestCache(unittest.TestCase):
     def test_lru_cache(self):

@@ -1,6 +1,6 @@
 from typing import Any, Optional, Dict
 from threading import Lock
-from .cache_policies import EvictionPolicy, LRUPolicy
+from cache_policies import EvictionPolicy, LRUPolicy
 
 class Cache:
     """

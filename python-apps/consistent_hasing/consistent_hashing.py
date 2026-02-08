@@ -5,7 +5,7 @@ from hashlib import md5
 class Servers:
     def __init__(self, initial_servers:int = 4, virtual_replicas:int = 20, hash_function: callable = None):
         self.virtual_replicas = virtual_replicas
-        self.hash_key_to_virtual_replicas_map = SortedDict()
+        self.hash_key_ to_virtual_replicas_map = SortedDict()
         self.virtual_hash_keys: SortedList[str] = SortedList()
         self.virtual_replicas_to_server_map: Dict[str, str] = {}
         self.hash_function = hash_function if hash_function else lambda x: md5(x.encode()).hexdigest()
